@@ -264,6 +264,24 @@ img {
 .gallery img:hover {
   transform: scale(1.05);
 }
+.gallery-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.gallery-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.gallery-header p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 5px;
+  font-style: italic;
+}
 
 /* Responsive Grid */
 @media (max-width: 1024px) {
