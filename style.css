@@ -260,10 +260,6 @@ img {
   break-inside: avoid;
   transition: transform 0.3s ease-in-out;
 }
-
-.gallery img:hover {
-  transform: scale(1.05);
-}
 .gallery-header {
   text-align: center;
   margin-bottom: 20px;
