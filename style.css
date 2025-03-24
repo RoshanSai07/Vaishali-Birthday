@@ -267,13 +267,13 @@ img {
 }
 
 .gallery-header h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #222;
 }
 
 .gallery-header p {
-  font-size: 1rem;
+  font-size: 0.4rem;
   color: #555;
   margin-top: 5px;
   font-style: italic;
