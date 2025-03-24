@@ -282,7 +282,18 @@ img {
   margin-top: 5px;
   font-style: italic;
 }
+@media (max-width: 768px) {
+  .gallery-header {
+    font-size: 2rem;
+  }
+}
 
+/* Further reduce for mobile screens */
+@media (max-width: 480px) {
+  .gallery-header {
+    font-size: 1.5rem;
+  }
+}
 /* Responsive Grid */
 @media (max-width: 1024px) {
   .gallery {
