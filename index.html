@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Vaishu</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="music-player">
+      <audio id="background-music" loop>
+        <source src="happy-birthday.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <button id="music-toggle">🎵 Play Music</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Remember the Date?</h2>
+        <div class="calendar-highlight">
+          <span class="month">March</span>
+          <span class="date">28</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <div class="features-grid">
+          <!-- Gift Feature -->
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="assests/gift.png" alt="Gift" />
+            </div>
+            <p>It's your birthday</p>
+          </div>
+
+          <!-- Cake Feature -->
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="assests/cake.png" alt="Cake" />
+            </div>
+            <p>Time to celebrate, eat cake, and have the best day ever!</p>
+          </div>
+
+          <!-- Message Feature -->
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="assests/party.png" alt="Party" />
+            </div>
+            <p class="message-text">
+              I hope your day is full of fun, laughter, and all the things you
+              love!
+            </p>
+          </div>
+
+          <!-- Enjoy Feature -->
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="assests/enjoy.png" alt="Enjoy" />
+            </div>
+            <p class="message-text">
+              Enjoy every moment because today is all about YOU!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Birthday Person Section -->
+    <section class="birthday-person">
+      <div class="container">
+        <div class="person-grid">
+          <div class="person-photo">
+            <img src="assests/vaishu.jpg" alt="Vaishu" id="birthdayPhoto" />
+          </div>
+          <div class="person-message">
+            <h1>Happy</h1>
+            <h1>Birthday,</h1>
+            <h1>Vaishu!</h1>
+            <p class="magic-text">Let the birthday magic begin!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Memories Section -->
+    <div class="gallery-container">
+      <div class="gallery">
+        <img src="assests/memory1.jpg" alt="Image 1" />
+        <img src="assests/memory2.jpg" alt="Image 2" />
+        <img src="assests/memory3.jpg" alt="Image 3" />
+        <img src="assests/memory4.jpg" alt="Image 4" />
+        <img src="assests/memory5.jpg" alt="Image 5" />
+        <img src="assests/memory6.jpg" alt="Image 6" />
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; <span id="currentYear"></span> Birthday Celebration</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
